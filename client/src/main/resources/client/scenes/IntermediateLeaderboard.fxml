@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.IntermediateLeaderboardCtrl">
+   <children>
+      <Label layoutX="62.0" layoutY="43.0" prefHeight="75.0" prefWidth="221.0" text="Leaderboard">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="87.0" prefHeight="75.0" prefWidth="191.0" text="Current Top 10 scores">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="intermediateLeaderboard" layoutX="293.0" layoutY="10.0" prefHeight="410.0" prefWidth="350.0">
+         <columns>
+            <TableColumn fx:id="colRanking" prefWidth="50.0" text="#" />
+            <TableColumn fx:id="colUsername" prefWidth="200.0" text="Username" />
+            <TableColumn fx:id="colScore" prefWidth="100.0" text="Score" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>

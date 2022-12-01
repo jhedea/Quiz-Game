@@ -1,0 +1,52 @@
+.root {
+	-fx-background-color: #63B1FF;
+}
+
+.label {
+    /* Styling for all Control with the class of 'label' */
+    -fx-padding: 2px;
+    -fx-start-margin: 2px;
+    -fx-end-margin: 2px;
+    -fx-text-fill: #0A1520;
+	-fx-border-radius: 50;
+}
+
+#errorMessage {
+	-fx-background-color: #63B1FF;
+	-fx-text-fill:  #0A1520;
+}
+
+.button {
+	-fx-padding: 2px;
+    -fx-start-margin: 2px;
+    -fx-end-margin: 2px;
+    -fx-text-fill: #63B1FF;
+	-fx-background-color:#0A1520;
+	-fx-border-radius: 50;
+}
+
+.table-view .column-header {
+    -fx-background-color: #0A1520;
+}
+
+.table-view .column-header .label {
+    -fx-background-color: #0A1520;
+    -fx-text-fill: #63B1FF;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #dfefff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill:#000000;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #c0dfff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}

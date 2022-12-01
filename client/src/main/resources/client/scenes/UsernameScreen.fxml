@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.UsernameCtrl">
+   <children>
+      <Label layoutX="125.0" layoutY="111.0" prefHeight="68.0" prefWidth="409.0" text="Start a new singleplayer game">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="194.0" prefHeight="68.0" prefWidth="410.0" text="Enter your username:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="355.0" layoutY="210.0" prefHeight="28.0" prefWidth="164.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="272.0" layoutY="320.0" mnemonicParsing="false" onAction="#start" prefHeight="52.0" prefWidth="114.0" text="Start">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#cancel" prefHeight="31.0" prefWidth="68.0" text="Cancel">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+
+      <Label fx:id="errorMessage" layoutX="254.0" layoutY="262.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="355.0" layoutY="250.0" prefHeight="22.0" prefWidth="164.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+plugins {
+	id 'io.freefair.lombok' version '6.4.1'
+}
+
+dependencies {
+	implementation 'jakarta.persistence:jakarta.persistence-api:2.2.3'
+	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.1'
+}

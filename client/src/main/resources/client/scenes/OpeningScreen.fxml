@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.OpeningCtrl">
+   <children>
+      <Button layoutX="106.0" layoutY="316.0" mnemonicParsing="false" onAction="#startNewSingleGame" prefHeight="72.0" prefWidth="165.0" text="Start new game">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="386.0" layoutY="316.0" mnemonicParsing="false" onAction="#startNewMultiGame" prefHeight="72.0" prefWidth="174.0" text="Join waiting room">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="147.0" layoutY="44.0" prefHeight="100.0" prefWidth="202.0" text="Quizzz...!" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="267.0" prefHeight="34.0" prefWidth="174.0" text="Play a single-player game">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="267.0" prefHeight="34.0" prefWidth="174.0" text="Play a multi-player game">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="467.0" layoutY="33.0" mnemonicParsing="false" onAction="#connectToServer" prefHeight="34.0" prefWidth="165.0" text="Change Server">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="175.0" layoutY="119.0" prefHeight="34.0" prefWidth="159.0" text="The Energy quiz game">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="467.0" layoutY="86.0" mnemonicParsing="false" onAction="#goToLeaderboard" prefHeight="34.0" prefWidth="166.0" text="View Leaderboard">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <ButtonBar layoutX="412.0" layoutY="143.0" prefHeight="40.0" prefWidth="174.0" />
+      <Button layoutX="467.0" layoutY="139.0" mnemonicParsing="false" onAction="#adminOption" prefHeight="34.0" prefWidth="166.0" text="Admin Panel">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="148.0" fitWidth="112.0" layoutX="43.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+           <Image url="@/emojis/noun-energy-3408496(1).png" />
+      </image> 
+      </ImageView>
+   </children>
+</AnchorPane>
