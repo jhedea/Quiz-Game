@@ -1,3 +1,6 @@
+#DISCLAIMER
+This project was done in a group of 6 people on the span of 2 months.
+
 # Quizzzz
 
 ## Description of project
