@@ -74,10 +74,3 @@ cd repository-template
 
 4. After the application opens, click `Use default` to connect to the local server
 (localhost:8080, the server must be running) or enter IP address (along with port number) of another server.
-
-## How to contribute to it
-
-This project is currently not open source, so we do not expect external contributions.
-However, if you find a bug, feel free to file an issue in Gitlab.
-
-If we decide to make this project open source, we will open it for other contributors.
