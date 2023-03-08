@@ -74,3 +74,17 @@ cd repository-template
 
 4. After the application opens, click `Use default` to connect to the local server
 (localhost:8080, the server must be running) or enter IP address (along with port number) of another server.
+
+
+### DEMO
+
+![plot](demo/join_server.png)
+![plot](demo/main.png)
+![plot](demo/activity_single_player.png)
+![plot](demo/start_single_player_game.png)
+![plot](demo/start_multi_player_game.png)
+![plot](demo/multi_player_game.png)
+![plot](demo/waiting_room.png)
+![plot](demo/admin.png)
+![plot](demo/leaderboard.png)
+![plot](demo/alltime.png)
