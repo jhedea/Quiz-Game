@@ -11,17 +11,6 @@ The game features 4 different types of questions:
 - estimating the amount of energy an activity takes, choosing from 3 possible answers
 - comparing 2 different activities
 
-## Group members
-
-| Profile Picture                                                                                    | Name              | Email                          |
-|----------------------------------------------------------------------------------------------------|-------------------|--------------------------------|
-| ![](https://secure.gravatar.com/avatar/7cc2ce50c088f4c8c206e81284b836bc?s=50&d=identicon)          | Karol Jurski      | K.K.Jurski@student.tudelft.nl  |
-| ![](https://secure.gravatar.com/avatar/1fa867b1c772f0c76684ef0bbcda9f91?s=50&d=identicon)          | Rauno Arike       | R.Arike@student.tudelft.nl     |
-| ![](https://secure.gravatar.com/avatar/5e960495591049df6166409846d08790?s=50&d=identicon)          | Sucharitha Rajesh | S.Rajesh-1@student.tudelft.nl  |
-| <img src="https://gitlab.ewi.tudelft.nl/uploads/-/system/user/avatar/4856/avatar.png" width="50"/> | IOAN-MIHNEA HEDEA | i.m.hedea@student.tudelft.nl   |
-| ![](https://secure.gravatar.com/avatar/d2da76f139216228cccd2b44c3d4d57a?s=50&d=identicon)          | Ye Zhao           | Y.Zhao-33@student.tudelft.nl   |
-| ![](https://secure.gravatar.com/avatar/3981f2bed07f0efcefdd80e7ec021b71?s=50&d=identicon)          | Max Tanis         | M.Tanis@student.tudelft.nl     |
-
 ## How to run it
 
 ### Prerequisites
