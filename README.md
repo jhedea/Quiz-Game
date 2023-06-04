@@ -1,6 +1,6 @@
 # Quizzzz
 
-## Description of project
+## Description of game
 
 Quizzzz is a quiz game focused on increasing the energy awareness by letting the player guess amounts of energy used
 by various everyday (and not only) activities. You can play alone or compete with your friends.
